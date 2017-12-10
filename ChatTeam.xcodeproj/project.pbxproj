@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A430E5771FDBF55C00876F2C /* ATEmoticonBottomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A430E5761FDBF55C00876F2C /* ATEmoticonBottomCell.swift */; };
+		A430E5791FDBF5A900876F2C /* ATEmoticonTabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A430E5781FDBF5A900876F2C /* ATEmoticonTabItemView.swift */; };
 		A43C6F651FD971BD002F82AC /* ATUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43C6F641FD971BD002F82AC /* ATUIView.swift */; };
 		A43C6F681FD973E6002F82AC /* ATSelectAttachmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43C6F671FD973E6002F82AC /* ATSelectAttachmentView.swift */; };
 		A43C6F6A1FD97437002F82AC /* ATScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43C6F691FD97437002F82AC /* ATScrollView.swift */; };
 		A43C6F6C1FD97461002F82AC /* ATAttachmentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43C6F6B1FD97461002F82AC /* ATAttachmentButton.swift */; };
 		A45E50131FC14A2A009F3FE2 /* ATConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45E50121FC14A2A009F3FE2 /* ATConstant.swift */; };
+		A4CB97F01FDBF13D0053C65A /* ATEmoticonBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB97EF1FDBF13D0053C65A /* ATEmoticonBoardView.swift */; };
+		A4CB97F31FDBF2600053C65A /* ATEmoticonBottomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB97F21FDBF2600053C65A /* ATEmoticonBottomTabBar.swift */; };
 		A4D8523B1FBFFA4000BE4020 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8523A1FBFFA4000BE4020 /* AppDelegate.swift */; };
 		A4D852401FBFFA4000BE4020 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D8523E1FBFFA4000BE4020 /* Main.storyboard */; };
 		A4D852421FBFFA4000BE4020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4D852411FBFFA4000BE4020 /* Assets.xcassets */; };
@@ -27,11 +31,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A430E5761FDBF55C00876F2C /* ATEmoticonBottomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATEmoticonBottomCell.swift; sourceTree = "<group>"; };
+		A430E5781FDBF5A900876F2C /* ATEmoticonTabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATEmoticonTabItemView.swift; sourceTree = "<group>"; };
 		A43C6F641FD971BD002F82AC /* ATUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATUIView.swift; sourceTree = "<group>"; };
 		A43C6F671FD973E6002F82AC /* ATSelectAttachmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATSelectAttachmentView.swift; sourceTree = "<group>"; };
 		A43C6F691FD97437002F82AC /* ATScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATScrollView.swift; sourceTree = "<group>"; };
 		A43C6F6B1FD97461002F82AC /* ATAttachmentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATAttachmentButton.swift; sourceTree = "<group>"; };
 		A45E50121FC14A2A009F3FE2 /* ATConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATConstant.swift; sourceTree = "<group>"; };
+		A4CB97EF1FDBF13D0053C65A /* ATEmoticonBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATEmoticonBoardView.swift; sourceTree = "<group>"; };
+		A4CB97F21FDBF2600053C65A /* ATEmoticonBottomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATEmoticonBottomTabBar.swift; sourceTree = "<group>"; };
 		A4D852371FBFFA4000BE4020 /* ChatTeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatTeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D8523A1FBFFA4000BE4020 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4D8523F1FBFFA4000BE4020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -65,6 +73,7 @@
 				A4D8524C1FBFFA8C00BE4020 /* ATChatViewController.swift */,
 				A4D8524E1FBFFAAD00BE4020 /* ATChatTableController.swift */,
 				A4D852521FBFFC7600BE4020 /* ATChatInputController.swift */,
+				A4D852581FC12A1500BE4020 /* ATInputToolViewBar.swift */,
 			);
 			path = ChatController;
 			sourceTree = "<group>";
@@ -72,10 +81,10 @@
 		A43C6F631FD9695A002F82AC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A4CB97F11FDBF1460053C65A /* EmoticonBoardView */,
 				A43C6F661FD973D2002F82AC /* AttachmentView */,
 				A4D852541FC021B100BE4020 /* ATInputToolView.swift */,
 				A4D852561FC128EF00BE4020 /* ATQuickSendEmoticonView.swift */,
-				A4D852581FC12A1500BE4020 /* ATInputToolViewBar.swift */,
 				A4D8525A1FC12B2C00BE4020 /* ATGrowTextView.swift */,
 				A4D8525C1FC12BB100BE4020 /* ATTransparentButton.swift */,
 			);
@@ -89,6 +98,17 @@
 				A43C6F6B1FD97461002F82AC /* ATAttachmentButton.swift */,
 			);
 			path = AttachmentView;
+			sourceTree = "<group>";
+		};
+		A4CB97F11FDBF1460053C65A /* EmoticonBoardView */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB97EF1FDBF13D0053C65A /* ATEmoticonBoardView.swift */,
+				A4CB97F21FDBF2600053C65A /* ATEmoticonBottomTabBar.swift */,
+				A430E5761FDBF55C00876F2C /* ATEmoticonBottomCell.swift */,
+				A430E5781FDBF5A900876F2C /* ATEmoticonTabItemView.swift */,
+			);
+			path = EmoticonBoardView;
 			sourceTree = "<group>";
 		};
 		A4D8522E1FBFFA4000BE4020 = {
@@ -196,16 +216,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A430E5791FDBF5A900876F2C /* ATEmoticonTabItemView.swift in Sources */,
 				A43C6F6A1FD97437002F82AC /* ATScrollView.swift in Sources */,
 				A43C6F681FD973E6002F82AC /* ATSelectAttachmentView.swift in Sources */,
 				A4D8524D1FBFFA8C00BE4020 /* ATChatViewController.swift in Sources */,
 				A4D852551FC021B100BE4020 /* ATInputToolView.swift in Sources */,
 				A4D852531FBFFC7600BE4020 /* ATChatInputController.swift in Sources */,
+				A4CB97F01FDBF13D0053C65A /* ATEmoticonBoardView.swift in Sources */,
 				A43C6F6C1FD97461002F82AC /* ATAttachmentButton.swift in Sources */,
 				A4D8525B1FC12B2C00BE4020 /* ATGrowTextView.swift in Sources */,
 				A45E50131FC14A2A009F3FE2 /* ATConstant.swift in Sources */,
 				A4D852591FC12A1500BE4020 /* ATInputToolViewBar.swift in Sources */,
+				A430E5771FDBF55C00876F2C /* ATEmoticonBottomCell.swift in Sources */,
 				A4D8523B1FBFFA4000BE4020 /* AppDelegate.swift in Sources */,
+				A4CB97F31FDBF2600053C65A /* ATEmoticonBottomTabBar.swift in Sources */,
 				A4D8524F1FBFFAAD00BE4020 /* ATChatTableController.swift in Sources */,
 				A43C6F651FD971BD002F82AC /* ATUIView.swift in Sources */,
 				A4D8525D1FC12BB100BE4020 /* ATTransparentButton.swift in Sources */,

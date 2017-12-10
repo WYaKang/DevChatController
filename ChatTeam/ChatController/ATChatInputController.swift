@@ -31,6 +31,13 @@ class ATChatInputController: UIViewController {
         return selectAttView
     }()
     
+    lazy var emoticonBoardView: ATEmoticonBoardView = {
+        let emotiBoardView = ATEmoticonBoardView()
+        emotiBoardView.frame = CGRect(x: 0, y: kScreenH - kChatInputBoardHeight, width: kScreenW, height: kChatInputBoardHeight)
+        emotiBoardView.backgroundColor = UIColor.brown
+        return emotiBoardView
+    }()
+    
     
     let inputToolViewBar: ATInputToolViewBar
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
@@ -49,6 +56,7 @@ class ATChatInputController: UIViewController {
         view.addSubview(inputToolViewBar)
         view.addSubview(boardBgView)
         view.addSubview(attachmentView)
+        view.addSubview(emoticonBoardView)
         
         attachmentView.attachmentItem = ["11111","22222","33333","44444",
                                          "55555","66666","77777","88888",

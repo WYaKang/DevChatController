@@ -24,8 +24,6 @@ class ATInputToolViewBar: UIView {
     fileprivate let BtnH: CGFloat = 35.0
     fileprivate let BtnBottomMargin: CGFloat = 8.0
     fileprivate let BtnLeftMargin: CGFloat = 1.0
-    fileprivate let ScreenW: CGFloat = UIScreen.main.bounds.size.width
-    fileprivate let ScreenH: CGFloat = UIScreen.main.bounds.size.height
     
     override init(frame: CGRect) {
         self.effectView       = UIVisualEffectView(effect: blur)
@@ -44,7 +42,6 @@ class ATInputToolViewBar: UIView {
         self.addSubview(voiceBtn)
         self.addSubview(expressBtn)
         self.addSubview(attachmentBtn)
-        
         self.isUserInteractionEnabled = true
         
         transparentBtn.isHidden = true
@@ -54,6 +51,7 @@ class ATInputToolViewBar: UIView {
         voiceBtn.backgroundColor        = UIColor.brown
         expressBtn.backgroundColor      = UIColor.brown
         attachmentBtn.backgroundColor   = UIColor.brown
+        
     }
     
     override func layoutSubviews() {
@@ -65,7 +63,7 @@ class ATInputToolViewBar: UIView {
                                 y: bounds.height - BtnH - BtnBottomMargin,
                             width: BtnW,
                            height: BtnH)
-        attachmentBtn.frame = CGRect(x: ScreenW - BtnLeftMargin - BtnW,
+        attachmentBtn.frame = CGRect(x: kScreenW - BtnLeftMargin - BtnW,
                                      y: voiceBtn.frame.origin.y,
                                  width: BtnW,
                                 height: BtnH)
