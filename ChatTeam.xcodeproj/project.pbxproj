@@ -14,6 +14,8 @@
 		A43C6F6A1FD97437002F82AC /* ATScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43C6F691FD97437002F82AC /* ATScrollView.swift */; };
 		A43C6F6C1FD97461002F82AC /* ATAttachmentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43C6F6B1FD97461002F82AC /* ATAttachmentButton.swift */; };
 		A45E50131FC14A2A009F3FE2 /* ATConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45E50121FC14A2A009F3FE2 /* ATConstant.swift */; };
+		A4C3B97C1FDD2A62008AB90D /* ATEmoticonBoardPageQQEmojiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C3B97B1FDD2A62008AB90D /* ATEmoticonBoardPageQQEmojiCell.swift */; };
+		A4C3B97E1FDD2AB2008AB90D /* ATQQEmojiGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C3B97D1FDD2AB2008AB90D /* ATQQEmojiGridView.swift */; };
 		A4CB97F01FDBF13D0053C65A /* ATEmoticonBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB97EF1FDBF13D0053C65A /* ATEmoticonBoardView.swift */; };
 		A4CB97F31FDBF2600053C65A /* ATEmoticonBottomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB97F21FDBF2600053C65A /* ATEmoticonBottomTabBar.swift */; };
 		A4D8523B1FBFFA4000BE4020 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D8523A1FBFFA4000BE4020 /* AppDelegate.swift */; };
@@ -38,6 +40,8 @@
 		A43C6F691FD97437002F82AC /* ATScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATScrollView.swift; sourceTree = "<group>"; };
 		A43C6F6B1FD97461002F82AC /* ATAttachmentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATAttachmentButton.swift; sourceTree = "<group>"; };
 		A45E50121FC14A2A009F3FE2 /* ATConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATConstant.swift; sourceTree = "<group>"; };
+		A4C3B97B1FDD2A62008AB90D /* ATEmoticonBoardPageQQEmojiCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATEmoticonBoardPageQQEmojiCell.swift; sourceTree = "<group>"; };
+		A4C3B97D1FDD2AB2008AB90D /* ATQQEmojiGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATQQEmojiGridView.swift; sourceTree = "<group>"; };
 		A4CB97EF1FDBF13D0053C65A /* ATEmoticonBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATEmoticonBoardView.swift; sourceTree = "<group>"; };
 		A4CB97F21FDBF2600053C65A /* ATEmoticonBottomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATEmoticonBottomTabBar.swift; sourceTree = "<group>"; };
 		A4D852371FBFFA4000BE4020 /* ChatTeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatTeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +111,8 @@
 				A4CB97F21FDBF2600053C65A /* ATEmoticonBottomTabBar.swift */,
 				A430E5761FDBF55C00876F2C /* ATEmoticonBottomCell.swift */,
 				A430E5781FDBF5A900876F2C /* ATEmoticonTabItemView.swift */,
+				A4C3B97B1FDD2A62008AB90D /* ATEmoticonBoardPageQQEmojiCell.swift */,
+				A4C3B97D1FDD2AB2008AB90D /* ATQQEmojiGridView.swift */,
 			);
 			path = EmoticonBoardView;
 			sourceTree = "<group>";
@@ -222,8 +228,10 @@
 				A4D8524D1FBFFA8C00BE4020 /* ATChatViewController.swift in Sources */,
 				A4D852551FC021B100BE4020 /* ATInputToolView.swift in Sources */,
 				A4D852531FBFFC7600BE4020 /* ATChatInputController.swift in Sources */,
+				A4C3B97E1FDD2AB2008AB90D /* ATQQEmojiGridView.swift in Sources */,
 				A4CB97F01FDBF13D0053C65A /* ATEmoticonBoardView.swift in Sources */,
 				A43C6F6C1FD97461002F82AC /* ATAttachmentButton.swift in Sources */,
+				A4C3B97C1FDD2A62008AB90D /* ATEmoticonBoardPageQQEmojiCell.swift in Sources */,
 				A4D8525B1FC12B2C00BE4020 /* ATGrowTextView.swift in Sources */,
 				A45E50131FC14A2A009F3FE2 /* ATConstant.swift in Sources */,
 				A4D852591FC12A1500BE4020 /* ATInputToolViewBar.swift in Sources */,
